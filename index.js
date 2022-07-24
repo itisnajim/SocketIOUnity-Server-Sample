@@ -6,9 +6,12 @@ const host = '0.0.0.0'; // 0.0.0.0 instead of localhost !
 const app = require('express')();
 const socket = require('socket.io');
 
+app.get('/check', (req, res) => res.send('Hello World'));
+
 const server = app.listen(port, host, () => {
     console.log('Listening on port ' + port);
 });
+
 var io = socket(server, {
     pingInterval: 5000,
     pingTimeout: 3000,
