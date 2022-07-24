@@ -1,0 +1,24 @@
+{
+  "name": "socketiounity-server-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itisnajim/SocketIOUnity-Server-Sample.git"
+  },
+  "author": "itisnajim <itisnajim@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itisnajim/SocketIOUnity-Server-Sample/issues"
+  },
+  "homepage": "https://github.com/itisnajim/SocketIOUnity-Server-Sample#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  }
+}
